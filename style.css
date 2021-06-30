@@ -1,0 +1,11 @@
+body {
+    background-color: #aaffaa;
+    color: #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    background-color: #333399;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0.5em 1em;
+}
