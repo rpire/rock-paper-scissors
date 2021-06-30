@@ -21,8 +21,8 @@ function playRound(playerSelection, computerSelection) {
             return `Your selection: ${playerSelection}\nComputer's selection: ${computerSelection}\n\nYou win! ${playerSelection} beats ${computerSelection}`; 
     }
     else if (playerSelection === "ROCK" && computerSelection === "PAPER" ||
-            playerSelection === "PAPER" && computerSelection === "ROCK" ||
-            playerSelection === "SCISSORS" && computerSelection === "PAPER") {
+            playerSelection === "PAPER" && computerSelection === "SCISSORS" ||
+            playerSelection === "SCISSORS" && computerSelection === "ROCK") {
                 computerCounter++;
                 return `Your selection: ${playerSelection}\nComputer's selection: ${computerSelection}\n\nYou lose... ${computerSelection} beats ${playerSelection}`;
     }
